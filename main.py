@@ -17,4 +17,4 @@ def contact():
 def post():
     return render_template("post.html")
 
-app.run()
+app.run(debug=True)
